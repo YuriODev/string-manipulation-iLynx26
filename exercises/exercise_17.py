@@ -1,1 +1,2 @@
-# Your solution to Exercise 17
+string = input()
+print(string.count(" ") + 1)
