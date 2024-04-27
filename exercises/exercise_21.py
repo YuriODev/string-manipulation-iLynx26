@@ -1,1 +1,1 @@
-# Your solution to Exercise 21
+string = input()
