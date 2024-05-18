@@ -1,1 +1,2 @@
-# Your solution to Exercise 3
+string = input()
+print("2" + string + "2")

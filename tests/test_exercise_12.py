@@ -7,22 +7,27 @@ def draw_penguins(n):
     output = ""
     for i in range(1, n + 1):
         output += "   _~_        "
+    output = output.rstrip()
     output += "\n"
 
     for i in range(1, n + 1):
         output += "  (o o)       "
+    output = output.rstrip()
     output += "\n"
 
     for i in range(1, n + 1):
         output += " /  V  \\      "
+    output = output.rstrip()
     output += "\n"
 
     for i in range(1, n + 1):
         output += f"/(  {i}  )\\     "
+    output = output.rstrip()
     output += "\n"
 
     for i in range(1, n + 1):
         output += "  ^^ ^^       "
+    output = output.rstrip()
     output += "\n"
 
     return output
